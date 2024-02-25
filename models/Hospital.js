@@ -29,4 +29,4 @@ const HospitalSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Please add a region'] } 
     });
-    module.exports = mongoose.model('Hospital',HospitalSchema);
+    module.exports = mongoose.model('Hospital', HospitalSchema);
